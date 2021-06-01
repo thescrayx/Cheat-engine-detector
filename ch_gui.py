@@ -28,7 +28,7 @@ class Notepad(QWidget):
         self.ac = QPushButton("Taramayı Başlat")
         self.recent = QPushButton("Recenti Aç")
         self.indir = QPushButton("İndirilenleri Aç")
-        self.gecmis = QPushButton("Discord Adresine Git")
+        self.gecmis = QPushButton("Github Adresine Git")
         
         self.yazi_alani.setStyleSheet("background-color: black;")
         self.yazi_alani.setTextColor(QColor(255,255,255))
@@ -60,7 +60,7 @@ class Notepad(QWidget):
         self.gecmis.clicked.connect(self.gecmis_ac)
 
     def gecmis_ac(self):
-        webbrowser.get("C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s").open("https://discord.com/invite/amongustr")
+        webbrowser.get("C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s").open("https://github.com/thescrayx")
 
     def recent_ac(self):
         path = r"C:\Users\user\Recent"
