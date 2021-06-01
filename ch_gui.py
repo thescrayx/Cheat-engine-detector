@@ -216,7 +216,7 @@ class Menu(QMainWindow):
         self.menuleri_olustur()
     def menuleri_olustur(self):       
 
-        self.setWindowTitle("discord.gg/amongustr")
+        self.setWindowTitle("Cheat engine detector v0.1")
 
         self.setGeometry(100, 100, 500, 500)
 
